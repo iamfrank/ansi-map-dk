@@ -7,7 +7,7 @@ It then uses the data to render a geographic map of Denmark.
 
 You'll need [Rust/Cargo](https://www.rust-lang.org/learn/get-started) to compile from source.
 
-* Clone the repository:
+Clone the repository:
 ```sh
 git clone https://github.com/iamfrank/ansi-map-dk.git
 cd ansi-map-dk
