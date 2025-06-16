@@ -89,8 +89,8 @@ fn main() -> Result<(), Box<dyn Error>> {
   dotenv().ok(); // Loads .env
 
   let base_url = env::var("API_DHM_WCS_BASEURL").unwrap();
-  let token_a = env::var("API_DHM_TOKENA").unwrap();
-  let token_b = env::var("API_DHM_TOKENB").unwrap();
+  let token_a = env::var("API_DHM_USERNAME").unwrap();
+  let token_b = env::var("API_DHM_PASSWORD").unwrap();
   let height_width = env::var("ELEVATION_MODEL_SIZE").unwrap();
 
   let dhm_request_url = base_url 

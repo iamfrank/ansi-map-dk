@@ -5,10 +5,22 @@ It then uses the data to render a geographic map of Denmark.
 
 ## Compiling from source
 
-Assuming you have Rust and Cargo installed:
+You'll need [Rust/Cargo](https://www.rust-lang.org/learn/get-started) to compile from source.
+
+* Clone the repository:
 ```sh
 git clone https://github.com/iamfrank/ansi-map-dk.git
 cd ansi-map-dk
+```
+
+**You'll need to set some environment variables before compiling.**
+
+This includes setting a username and password for accessing data from datafordeler.dk.
+
+The application can read environment variables from an `.env` file. So you can just copy the `.env.example` file and edit it to your liking before compiling.
+
+Now you can compile the application.
+```sh
 cargo run
 ```
 
