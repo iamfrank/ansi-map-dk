@@ -1,0 +1,11 @@
+[package]
+name = "ansi-map-dk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenvy = "0.15"
+geo-types = "0.7"
+geotiff = "0.1"
+reqwest = { version = "0.12", features = ["blocking"] }
+tiff = "0.9"
